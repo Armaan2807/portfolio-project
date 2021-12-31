@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="navbar">
+            <div class="nav-link">
+                About
+            </div>
+            <div class="nav-link">
+                Work
+            </div>
+            <div class="nav-link">
+                Contact
+            </div>
+            <div>
+
+            </div>
+        </div>
+        <div class="hero-section">
+            <div class="my-name">
+                Hey I am Armaan
+            </div>
+            <div class="child-1">
+                A web developer
+            </div>
+        </div>
+        <div class="project-section">
+            <div class="heading">
+                <div> These are some of my projects</div>
+                <div>
+                    <hr>
+                </div>
+            </div>
+            <div class="projects">
+                <div class="project-card">
+                    <div class="card-img">
+                        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" width="320px"
+                            alt="">
+                    </div>
+                    <div class="project-link">
+                        Tribute Page
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-img">
+                        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+                            width="320px" alt="">
+                    </div>
+                    <div class="project-link">
+                        Random Quote Machine
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-img">
+                        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" width="320px"
+                            alt="">
+                    </div>
+                    <div class="project-link">
+                        Javascript calculator
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-img">
+                        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" width="320px" alt="">
+                    </div>
+                    <div class="project-link">
+                        Map Data Across The Globe
+                    </div>
+                </div>
+                <div class="project-card">
+
+                </div>
+                <div class="project-card">
+
+                </div>
+            </div>
+        </div>
+        <div class="contact-section">
+
+        </div>
+        <div class="footer-section">
+
+        </div>
+    </div>
+</body>
+
+</html>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .navbar {
+        display: flex;
+        /* padding: 20px; */
+        justify-content: flex-end;
+        align-items: center;
+        height: 64px;
+        background-color: #be3144;
+    }
+
+    .nav-link {
+        margin: 0px 6px;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .nav-link:hover {
+        background-color: #45567d;
+        cursor: pointer;
+    }
+
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(39, 40, 43);
+        height: 500px;
+        color: rgb(240, 240, 240);
+        font-size: 50px;
+    }
+
+    .child-1 {
+        color: red;
+        font-style: italic;
+    }
+
+    .project-section {
+        background-color: rgb(69, 86, 125);
+        height: 700px;
+        width: 100%;
+    }
+
+    .heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 40px;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    hr {
+        width: 500px;
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .project-card {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+        max-width: 500px;
+        width: 320px;
+        /* box-shadow: 1px 1px 2px rgb(0 0 0 / 50%); */
+    }
+    img {
+max-height: 400px;
+    }
+    .card-img {
+    }
+
+    .project-link {
+        background-color: #303841;
+        color: white;
+        padding: 8px 16px;
+        text-align: center;
+    }
+</style>
