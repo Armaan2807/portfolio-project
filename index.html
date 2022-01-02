@@ -42,7 +42,7 @@
             <div class="projects">
                 <div class="project-card">
                     <div class="card-img">
-                        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" width="320px"
+                        <img class="p-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg" 
                             alt="">
                     </div>
                     <div class="project-link">
@@ -51,8 +51,8 @@
                 </div>
                 <div class="project-card">
                     <div class="card-img">
-                        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
-                            width="320px" alt="">
+                        <img class="p-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+                             alt="">
                     </div>
                     <div class="project-link">
                         Random Quote Machine
@@ -60,7 +60,7 @@
                 </div>
                 <div class="project-card">
                     <div class="card-img">
-                        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" width="320px"
+                        <img class="p-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png" 
                             alt="">
                     </div>
                     <div class="project-link">
@@ -69,7 +69,7 @@
                 </div>
                 <div class="project-card">
                     <div class="card-img">
-                        <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" width="320px" alt="">
+                        <img class="p-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"  alt="">
                     </div>
                     <div class="project-link">
                         Map Data Across The Globe
@@ -138,7 +138,7 @@
 
     .project-section {
         background-color: rgb(69, 86, 125);
-        height: 700px;
+        /* height: 700px; */
         width: 100%;
     }
 
@@ -160,19 +160,24 @@
     .projects {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
     }
 
     .project-card {
         display: flex;
         flex-direction: column;
-        margin-left: 60px;
-        max-width: 500px;
+        margin: 30px;
+        max-width: 320px;
         width: 320px;
         /* box-shadow: 1px 1px 2px rgb(0 0 0 / 50%); */
     }
-    img {
-max-height: 400px;
-    }
+.p-img{
+    max-width: 320px;
+    height: 360px;
+
+}
+   
     .card-img {
     }
 
